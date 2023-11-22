@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "profile-homepage-hero",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
