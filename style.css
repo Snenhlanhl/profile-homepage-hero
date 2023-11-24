@@ -15,6 +15,8 @@
 :root {
     --defualt-font-family:"poppins", sans-serif;
     --branding-color:#85b0f0;
+    --color: black;
+    --background-color:antiquewhite;
 }
 
 .wrapped {
@@ -27,7 +29,7 @@
 h1{
 
     font-weight: bold;
-    color:black;
+    color: var(--color);
     font-size: 64px;
     line-height: 80px;
     text-align: left;
@@ -36,7 +38,7 @@ h1{
 }
 h{
     font-weight: bold;
-    color:black;
+    color: var(--color);
     font-size: 64px;
     line-height: 80px;
     text-align: left;
@@ -82,7 +84,7 @@ img {
     line-height: 30px;
     font-weight:bold;
     font-size: 18px;
-    background-color: antiquewhite;
+    background-color: var(--background-color);
     border-radius: 20px;
     padding: 20px 20px;
 }
@@ -90,6 +92,27 @@ img {
     text-align: center;
     display: block;
     
+}
+.email-link {
+    color: var(--color);
+    font-size:24px;
+    text-decoration: none;
+    font-weight: 20px;
+}
+footer.email-link:hover {
+    color: var(--branding-color);
+}
+.social-links a {
+    margin: 30px 30px 30px 30px;
+    margin-bottom: 20px;
+    padding-top: 30px 30px 30px 30px;
+    border-radius: 20px;
+    width: 30px;
+    background-color: var(--branding-color);
+    
+}
+.social-links a :hover{
+    color: var(--branding-color);
 }
 
     
