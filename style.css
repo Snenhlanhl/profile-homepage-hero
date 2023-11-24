@@ -103,16 +103,21 @@ footer.email-link:hover {
     color: var(--branding-color);
 }
 .social-links a {
-    margin: 30px 30px 30px 30px;
-    margin-bottom: 20px;
-    padding-top: 30px 30px 30px 30px;
-    border-radius: 20px;
-    width: 30px;
-    background-color: var(--branding-color);
+    margin: 0 50px;
+    padding-top: 60px 50px;
+    border-radius: 20%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+    background-color:#f9f7fe; 
     
 }
 .social-links a :hover{
     color: var(--branding-color);
+}
+.contact-box{
+    padding: 30px 120px;
+    border-radius:10px;
+    background:#f9f7fe;
 }
 
     
